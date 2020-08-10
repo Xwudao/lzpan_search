@@ -74,5 +74,39 @@
                 "title": "MyFreeMp3"
             }
         ]
+    },
+    "movie": {
+        "alias": "movie",
+        "title": "电影",
+        "sites": [
+            {
+                "link": "https://www.pianku.tv/",
+                "title": "片库"
+            },
+            {
+                "link": "https://app.movie/",
+                "title": "APP影院"
+            },
+            {
+                "link": "https://www.hanjutv.com/",
+                "title": "韩剧电影"
+            },
+            {
+                "link": "https://www.wanmeikk.me/",
+                "title": "完美看看"
+            },
+            {
+                "link": "https://www.88ys.com/",
+                "title": "88影视"
+            },
+            {
+                "link": "https://www.zhenbuka.com/",
+                "title": "真不卡影院"
+            },
+            {
+                "link": "https://www.duboku.co/",
+                "title": "独播库"
+            }
+        ]
     }
 }
