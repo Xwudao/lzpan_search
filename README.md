@@ -1,6 +1,6 @@
 ### 懒盘搜索
 
-Demo: ![https://lzpan.com](https://lzpan.com)
+Demo: [https://lzpan.com](https://lzpan.com)
 
 ### 使用
 
