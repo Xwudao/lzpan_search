@@ -4,26 +4,74 @@
         "title": "网盘搜索",
         "sites": [
             {
-                "link": "https://misiai.com",
-                "title": "迷思爱"
+                "link": "https://www.kolsou.com/",
+                "title": "酷搜"
             },
             {
-                "link": "https://ujuji.com",
-                "title": "优聚集2"
+                "link": "https://www.luomapan.com/",
+                "title": "罗马盘搜索"
+            },
+            {
+                "link": "https://www.xiaomapan.com/",
+                "title": "小马盘搜索"
+            },
+            {
+                "link": "https://www.dalipan.com/",
+                "title": "大力盘搜索"
+            },
+            {
+                "link": "https://www.dashengpan.com/",
+                "title": "大圣盘搜索"
+            },
+            {
+                "link": "https://www.xiaokesoso.com/",
+                "title": "小可搜搜"
+            },
+            {
+                "link": "https://www.xiaozhaolaila.com/",
+                "title": "小昭来啦"
+            },
+            {
+                "link": "https://www.xiaobaipan.com/",
+                "title": "小白盘搜索"
+            },
+            {
+                "link": "https://www.xiaoso.net/",
+                "title": "小不点搜索"
+            },
+            {
+                "link": "https://www.sobaidupan.com/",
+                "title": "SO百度盘"
+            },
+            {
+                "link": "https://www.jidanso.com/",
+                "title": "网盘传奇"
+            },
+            {
+                "link": "https://www.lingfengyun.com/",
+                "title": "凌风云搜索"
             }
         ]
     },
     "music": {
         "alias": "music",
-        "title": "我爱音乐",
+        "title": "音乐",
         "sites": [
             {
-                "link": "https://ujuji.com",
-                "title": "优聚集"
+                "link": "http://www.musictool.top/",
+                "title": "音乐搜索神器"
             },
             {
-                "link": "https://ujuji.com",
-                "title": "优聚集2"
+                "link": "http://music.jsososo.com/",
+                "title": "网易云音乐"
+            },
+            {
+                "link": "https://music.daimadog.com/",
+                "title": "代码狗音乐"
+            },
+            {
+                "link": "http://tool.liumingye.cn/music/",
+                "title": "MyFreeMp3"
             }
         ]
     }

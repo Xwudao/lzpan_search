@@ -9,7 +9,7 @@ const yearDom = selector('#year')
 const rightBar = $(".right-bar")
 const rightMenus = rightBar.children('.menus')
 
-const iframe = $('iframe')
+const iframe = $('iframe[name="search"]')
 const oLoading = $('#loading')
 const err = $('#err')
 

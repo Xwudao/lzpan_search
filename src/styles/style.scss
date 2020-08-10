@@ -65,6 +65,15 @@ header {
         }
       }
     }
+
+    .github {
+      float: right;
+      margin-left: 2rem;
+      a {
+        font-weight: bold;
+        @include a-default;
+      }
+    }
   }
 }
 main {
