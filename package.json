@@ -1,0 +1,34 @@
+{
+  "name": "js_mdliker_wechat",
+  "version": "1.0.0",
+  "description": "Lzpan gather Search",
+  "main": "index.js",
+  "author": "Kuan",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.js",
+    "w": "webpack --config webpack.config.js --mode development  --watch",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^4.2.1",
+    "html-webpack-plugin": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
+    "webpack-server": "^0.1.2"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

@@ -1,0 +1,1 @@
+export const FAVICON_API_URL = 'https://i.olsh.me/icon?size=80..120..200&url=';

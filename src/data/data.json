@@ -1,0 +1,30 @@
+{
+    "disk": {
+        "alias": "disk",
+        "title": "网盘搜索",
+        "sites": [
+            {
+                "link": "https://misiai.com",
+                "title": "迷思爱"
+            },
+            {
+                "link": "https://ujuji.com",
+                "title": "优聚集2"
+            }
+        ]
+    },
+    "music": {
+        "alias": "music",
+        "title": "我爱音乐",
+        "sites": [
+            {
+                "link": "https://ujuji.com",
+                "title": "优聚集"
+            },
+            {
+                "link": "https://ujuji.com",
+                "title": "优聚集2"
+            }
+        ]
+    }
+}
