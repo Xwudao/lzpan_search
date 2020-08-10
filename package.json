@@ -12,6 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/polyfill": "^7.10.4",
+    "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^6.0.3",
     "css-loader": "^4.2.1",
     "html-webpack-plugin": "^4.3.0",
