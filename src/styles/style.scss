@@ -30,6 +30,9 @@ header {
   .brand {
     width: calc(#{$left-site-width} - 2rem);
     padding-left: 1rem;
+    a {
+      @include a-default;
+    }
     img {
       width: 30px;
       height: 30px;
