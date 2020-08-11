@@ -97,6 +97,10 @@ function _genLeft(alias) {
             site.addClass('active').siblings().removeClass('active')
             oLoading.css({ display: 'block' })
         })
+        // 添加右键事件
+        site.on('contextmenu', () => {
+            window.open(link, '_blank') ? null : location.href = link
+        })
 
         leftSiteList.append(site)
     });

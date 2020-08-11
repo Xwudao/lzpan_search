@@ -1,7 +1,7 @@
 {
     "disk": {
         "alias": "disk",
-        "title": "网盘搜索",
+        "title": "网盘",
         "sites": [
             {
                 "link": "https://www.kolsou.com/",
@@ -106,6 +106,54 @@
             {
                 "link": "https://www.duboku.co/",
                 "title": "独播库"
+            }
+        ]
+    },
+    "comic": {
+        "alias": "comic",
+        "title": "动漫",
+        "sites": [
+            {
+                "link": "https://www.agefans.tv/",
+                "title": "AgeFans动漫"
+            },
+            {
+                "link": "https://www.clicli.me/",
+                "title": "CiliCili动漫"
+            },
+            {
+                "link": "https://www.bilibili.com/",
+                "title": "BiliBili动漫"
+            }
+        ]
+    },
+    "hot": {
+        "alias": "hot",
+        "title": "热榜",
+        "sites": [
+            {
+                "link": "https://ihothub.com/",
+                "title": "爱热榜"
+            },
+            {
+                "link": "https://mo.fish/",
+                "title": "鱼塘热榜"
+            },
+            {
+                "link": "https://s.weibo.com/top/summary?cate=homepage",
+                "title": "微博热搜"
+            },
+            {
+                "link": "https://trends.so.com/hot",
+                "title": "360热搜"
+            },
+            {
+                "link": "https://www.bilibili.com/ranking",
+                "title": "B站全站榜"
+            },
+            {
+                "link": "http://top.sogou.com/",
+                "title": "搜狗热搜"
             }
         ]
     }
