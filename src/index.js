@@ -1,7 +1,14 @@
 import { selector, getCategories, matchDomain, getSiteByAlias } from './js/func'
 import { FAVICON_API_URL } from './core/constants'
 import * as data from './data/data.json'
+import { isMobile } from './js/func'
 
+
+let jump = isMobile();
+
+if (jump) {
+    window.location.href = 'mobile.html'
+}
 
 
 // doms

@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import './variables';
+@import './mixins';
+
+html,
+body {
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  line-height: 1.5;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  color: #333;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  height: $mobile-header-height;
+  line-height: $mobile-header-height;
+  background-color: $primary-color;
+  .brand {
+    height: 40px;
+    line-height: 40px;
+    margin-left: 0.3rem;
+    a {
+      @include a-default;
+      img {
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+      }
+      .title {
+        vertical-align: middle;
+        font-weight: bold;
+        font-size: 1.1rem;
+      }
+    }
+  }
+  .categories {
+    height: $mobile-select-height;
+    select {
+      background-color: #fff;
+      color: #000000;
+      border: 1px solid #999999;
+      width: 100%;
+      max-width: 100%;
+      height: 30px;
+    }
+  }
+}
+main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  margin: calc(#{#{$header-height} + #{$mobile-select-height} + 10px}) 0
+    $footer-height;
+  display: flex;
+
+  .loading {
+    display: none;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: rbga(0, 0, 0, 0.5);
+    @include loading;
+  }
+  .err {
+    display: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: red;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  iframe {
+    display: none;
+    // visibility: hidden;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
+}
+footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: $primary-color;
+  height: $footer-height;
+  line-height: $footer-height;
+  text-align: center;
+  color: #ffffff;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+
+    &:hover {
+      color: #e67e22;
+    }
+  }
+  span {
+    margin: 0 0.5rem;
+  }
+}

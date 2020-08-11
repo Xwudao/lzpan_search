@@ -7,10 +7,13 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const appTitle = '懒盘搜索聚合官网 - lzpan.com'
 module.exports = {
     mode: "development",
-    entry: path.resolve(__dirname, 'main.js'),
+    entry: {
+        index: path.resolve(__dirname, 'main.js'),
+        mobile: path.resolve(__dirname, 'mobileMain.js')
+    },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: "script.js",
+        filename: "[name].js",
         chunkFilename: "[name].chunk.js"
     },
     module: {
@@ -35,8 +38,15 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             title: appTitle,
+            chunks: ['index'],
             filename: 'index.html',
             template: path.resolve(__dirname, 'public/index.html')
+        }),
+        new HtmlWebpackPlugin({
+            title: appTitle,
+            chunks: ['mobile'],
+            filename: 'mobile.html',
+            template: path.resolve(__dirname, 'public/mobile.html')
         }),
         new CopyWebpackPlugin({
             patterns: [
