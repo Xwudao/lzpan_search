@@ -48,6 +48,7 @@ header {
 
   .right-bar {
     display: flex;
+
     .menus,
     .other-links {
       display: flex;
@@ -69,12 +70,32 @@ header {
       }
     }
 
-    .github {
-      float: right;
-      margin-left: 2rem;
-      a {
-        font-weight: bold;
-        @include a-default;
+    .search {
+      margin-left: 3rem;
+      position: relative;
+      input {
+        padding: 0 0.5rem;
+        outline: none;
+        border: none;
+        width: 15rem;
+        height: 1.9rem;
+        color: #666666;
+        vertical-align: middle;
+      }
+
+      button {
+        vertical-align: middle;
+        padding: 0 0.5rem;
+        height: 1.9rem;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        background-color: #3498db;
+        color: #ffffff;
+
+        &:hover {
+          background-color: #2980b9;
+        }
       }
     }
   }

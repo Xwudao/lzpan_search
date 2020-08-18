@@ -5,38 +5,47 @@
         "sites": [
             {
                 "link": "https://www.kolsou.com/",
+                "searchUrl": "https://www.kolsou.com/search?q=[kw]",
                 "title": "酷搜"
             },
             {
                 "link": "https://www.luomapan.com/",
+                "searchUrl": "https://www.luomapan.com/search?keyword=[kw]",
                 "title": "罗马盘搜索"
             },
             {
                 "link": "https://www.xiaomapan.com/",
+                "searchUrl": "https://www.xiaomapan.com/search?keyword=[kw]",
                 "title": "小马盘搜索"
             },
             {
                 "link": "https://www.dalipan.com/",
+                "searchUrl": "https://www.dalipan.com/search?keyword=[kw]",
                 "title": "大力盘搜索"
             },
             {
                 "link": "https://www.dashengpan.com/",
+                "searchUrl": "https://www.dashengpan.com/search?keyword=[kw]",
                 "title": "大圣盘搜索"
             },
             {
                 "link": "https://www.xiaokesoso.com/",
+                "searchUrl": "https://www.xiaokesoso.com/s/search?q=[kw]&currentPage=1",
                 "title": "小可搜搜"
             },
             {
                 "link": "https://www.xiaozhaolaila.com/",
+                "searchUrl": "https://www.xiaozhaolaila.com/s/search?q=[kw]&currentPage=1",
                 "title": "小昭来啦"
             },
             {
                 "link": "https://www.xiaobaipan.com/",
+                "searchUrl": "https://www.xiaobaipan.com/list-[kw].html",
                 "title": "小白盘搜索"
             },
             {
                 "link": "https://www.xiaoso.net/",
+                "searchUrl": "https://www.xiaoso.net/m/search?wd=[kw]",
                 "title": "小不点搜索"
             },
             {
@@ -45,6 +54,7 @@
             },
             {
                 "link": "https://www.pantianxia.com/",
+                "searchUrl": "https://www.pantianxia.com/zh/[kw]",
                 "title": "盘天下搜索"
             },
             {
@@ -53,11 +63,38 @@
             },
             {
                 "link": "https://www.jidanso.com/",
+                "searchUrl": "https://www.jidanso.com/index.php/search/q/[kw]/?q=[kw]&from=sf&type=all",
                 "title": "网盘传奇"
             },
             {
                 "link": "https://www.lingfengyun.com/",
                 "title": "凌风云搜索"
+            }
+        ]
+    },
+    "searchEngin": {
+        "alias": "searchEngin",
+        "title": "搜索",
+        "sites": [
+            {
+                "link": "https://cn.bing.com",
+                "searchUrl": "https://cn.bing.com/search?q=[kw]",
+                "title": "必应搜索"
+            },
+            {
+                "link": "https://www.baidu.com/",
+                "searchUrl": "https://www.baidu.com/s?wd=[kw]",
+                "title": "百度搜索"
+            },
+            {
+                "link": "https://www.so.com/",
+                "searchUrl": "https://www.so.com/s?ie=utf-8&q=[kw]",
+                "title": "360搜索"
+            },
+            {
+                "link": "https://www.sogou.com",
+                "searchUrl": "https://www.sogou.com/web?query=[kw]&ie=utf8",
+                "title": "搜狗搜索"
             }
         ]
     },
@@ -89,14 +126,17 @@
         "sites": [
             {
                 "link": "https://app.movie/",
+                "searchUrl": "https://app.movie/index.php/vod/search.html?wd=[kw]&submit=",
                 "title": "APP影院"
             },
             {
                 "link": "https://www.pianku.tv/",
+                "searchUrl": "https://www.pianku.tv/s/[kw].html",
                 "title": "片库"
             },
             {
                 "link": "https://www.hanjutv.com/",
+                "searchUrl": "https://www.hanjutv.com/index.php?c=so&module=&keyword=[kw]",
                 "title": "韩剧电影"
             },
             {
@@ -109,10 +149,12 @@
             },
             {
                 "link": "https://www.zhenbuka.com/",
+                "searchUrl": "https://www.zhenbuka.com/vodsearch/-------------/?wd=[kw]&submit=",
                 "title": "真不卡影院"
             },
             {
                 "link": "https://www.duboku.co/",
+                "searchUrl": "https://www.duboku.co/vodsearch/-------------.html?wd=[kw]&submit=",
                 "title": "独播库"
             }
         ]
@@ -123,14 +165,17 @@
         "sites": [
             {
                 "link": "https://www.agefans.tv/",
+                "searchUrl": "https://www.agefans.tv/search?query=[kw]&page=1",
                 "title": "AgeFans动漫"
             },
             {
                 "link": "https://www.clicli.me/",
+                "searchUrl": "https://www.clicli.me/search/[kw]",
                 "title": "CiliCili动漫"
             },
             {
                 "link": "https://www.bilibili.com/",
+                "searchUrl": "https://search.bilibili.com/all?keyword=[kw]&from_source=nav_suggest_new",
                 "title": "BiliBili动漫"
             }
         ]

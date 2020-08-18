@@ -3,6 +3,13 @@ import { FAVICON_API_URL } from './core/constants'
 import * as data from './data/data.json'
 import { isMobile } from './js/func'
 
+// constants
+
+const KEY_SEARCH_KEY = 'search_key'
+const KEY_TOP_INDEX = 'key_top_index'
+const KEY_LEFT_INDEX = 'key_left_index'
+
+
 
 let jump = isMobile();
 
@@ -18,9 +25,31 @@ const rightMenus = rightBar.children('.menus')
 
 const iframe = $('iframe[name="search"]')
 const oLoading = $('#loading')
+const oSearchInput = $('#search-input')
+const oSearchBtn = $('#search-btn')
 const err = $('#err')
 
 const leftSiteList = $(".site-list")
+
+// 全局变量
+const nowChose = {
+    searchUrl: '',
+    topIndex: -1,
+    leftIndex: -1
+}
+
+// 全局处理
+let kw = localStorage.getItem(KEY_SEARCH_KEY) || ''
+if (kw) oSearchInput.val(kw)
+
+let topIndex = localStorage.getItem(KEY_TOP_INDEX) || ''
+let leftIndex = localStorage.getItem(KEY_LEFT_INDEX) || ''
+console.log('leftIndex: ', leftIndex);
+
+if (topIndex) nowChose.topIndex = topIndex * 1;
+if (leftIndex) nowChose.leftIndex = leftIndex * 1;
+
+
 
 
 // 处理顶部
@@ -42,17 +71,22 @@ function _genTop() {
         a.text(title)
         a.attr('data-alias', alias)
 
+
         // 添加事件，点击事件
         a.on('click', () => {
-
             menu.addClass('active').siblings().removeClass('active')
             _genLeft(alias)
+            // 保存当前index
+            localStorage.setItem(KEY_TOP_INDEX, index)
 
         })
         rightMenus.append(menu)
 
-        // 如果第一个的话，就默认选中
-        if (index === 0) {
+        if (nowChose.topIndex !== -1 && index === nowChose.topIndex) {//记住了上次的选择
+            console.log('nowChose.topIndex: ', nowChose.topIndex);
+            menu.addClass('active').siblings().removeClass('active')
+            _genLeft(alias)
+        } else if (index === 0) {  // 如果第一个的话，就默认选中
             menu.addClass('active').siblings().removeClass('active')
             _genLeft(alias)
         }
@@ -71,7 +105,7 @@ function _genLeft(alias) {
     const { sites } = _sites;
     sites.forEach((element, index) => {
 
-        const { title, link } = element;
+        const { title, link, searchUrl } = element;
         let site = $(`
         <li class="site">
             <img src="https://i.olsh.me/icon?size=80..120..200&url=kilig.ujuji.com" alt="">
@@ -85,17 +119,25 @@ function _genLeft(alias) {
         img.attr('src', FAVICON_API_URL + matchDomain(link))
 
         // 如果是第一个的话，就默认选中
+
         if (index === 0) {
             iframe.attr('src', link)
             site.addClass('active').siblings().removeClass('active')
             oLoading.css({ display: 'block' })
+            nowChose.searchUrl = searchUrl ? searchUrl : null
         }
 
         // 添加点击事件
         site.on('click', () => {
-            iframe.attr('src', link)
             site.addClass('active').siblings().removeClass('active')
-            oLoading.css({ display: 'block' })
+            if (searchUrl) {
+                nowChose.searchUrl = searchUrl ? searchUrl : null
+                _toSearch()//处理搜索
+            } else {
+                oLoading.css({ display: 'block' })
+                iframe.attr('src', link)
+            }
+
         })
         // 添加右键事件
         site.on('contextmenu', () => {
@@ -109,7 +151,45 @@ function _genLeft(alias) {
 
 }
 
-// 处理加载中事件
+
+// 处理搜索相关
+
+oSearchInput.on('input', (e) => {
+    let val = oSearchInput.val()
+    localStorage.setItem(KEY_SEARCH_KEY, val)
+})
+
+oSearchInput.on('keyup', (e) => {//回车
+    if (e.keyCode === 13 && oSearchInput.val()) {
+        _toSearch()
+    }
+
+})
+
+oSearchBtn.on('click', () => {
+    if (oSearchInput.val()) {
+        _toSearch()
+    }
+
+})
+
+// 跳转到搜索页面的按钮
+function _toSearch() {
+    if (nowChose.searchUrl) {
+        let url = nowChose.searchUrl.replace('[kw]', encodeURIComponent(oSearchInput.val()))
+        oLoading.css({ display: 'block' })
+        iframe.attr('src', url)
+
+    } else {
+        console.log('No search url');
+    }
+}
+
+
+
+
+
+// 处理iframe加载中事件
 iframe.on('load', () => {
     oLoading.css({ display: 'none' })
     iframe.css({ display: 'block' })
