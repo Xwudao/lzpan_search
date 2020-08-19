@@ -82,9 +82,24 @@
                 "title": "必应搜索"
             },
             {
+                "link": "https://www.dogedoge.com/",
+                "searchUrl": "https://www.dogedoge.com/results?q=[kw]",
+                "title": "多吉搜索"
+            },
+            {
+                "link": "https://mijisou.com/",
+                "searchUrl": "https://mijisou.com/?q=[kw]&category_general=on&time_range=&language=zh-CN&pageno=1",
+                "title": "秘迹搜索"
+            },
+            {
                 "link": "https://www.baidu.com/",
                 "searchUrl": "https://www.baidu.com/s?wd=[kw]",
                 "title": "百度搜索"
+            },
+            {
+                "link": "https://www.cupfox.com/",
+                "searchUrl": "https://www.cupfox.com/search?key=[kw]",
+                "title": "茶杯狐搜索"
             },
             {
                 "link": "https://www.so.com/",
@@ -92,9 +107,24 @@
                 "title": "360搜索"
             },
             {
+                "link": "https://www.acgsou.com/",
+                "searchUrl": "https://www.36dm.club/search.php?keyword=[kw]",
+                "title": "ACG搜索"
+            },
+            {
                 "link": "https://www.sogou.com",
                 "searchUrl": "https://www.sogou.com/web?query=[kw]&ie=utf8",
                 "title": "搜狗搜索"
+            },
+            {
+                "link": "https://weixin.sogou.com/",
+                "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=[kw]",
+                "title": "搜狗微信"
+            },
+            {
+                "link": "https://zihu.sogou.com",
+                "searchUrl": "https://www.sogou.com/sogou?insite=zhihu.com&ie=utf8&query=[kw]&ie=utf8",
+                "title": "搜狗知乎"
             }
         ]
     },
