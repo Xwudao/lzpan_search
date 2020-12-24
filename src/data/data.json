@@ -34,6 +34,16 @@
                 "title": "小可搜搜"
             },
             {
+                "link": "http://feiyu100.cn/home",
+                "searchUrl": "http://feiyu100.cn/home",
+                "title": "飞鱼盘搜[需关注]"
+            },
+            {
+                "link": "https://www.iizhi.cn/",
+                "searchUrl": "https://www.iizhi.cn/resource/search/[kw]?searchtype=0",
+                "title": "毕方铺[需登录]"
+            },
+            {
                 "link": "https://www.xiaozhaolaila.com/",
                 "searchUrl": "https://www.xiaozhaolaila.com/s/search?q=[kw]&currentPage=1",
                 "title": "小昭来啦"
@@ -135,6 +145,10 @@
             {
                 "link": "https://music.daimadog.com/",
                 "title": "代码狗音乐"
+            },
+            {
+                "link": "http://music.runker.net/",
+                "title": "行客音乐"
             },
             {
                 "link": "http://www.musictool.top/",
