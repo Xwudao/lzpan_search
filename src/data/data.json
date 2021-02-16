@@ -4,6 +4,11 @@
         "title": "网盘",
         "sites": [
             {
+                "link": "https://disk.misiai.com/",
+                "searchUrl": "https://disk.misiai.com/search?what=disk&kw=[kw]&diskType=ALL&time=ALL",
+                "title": "LZPAN"
+            },
+            {
                 "link": "https://www.kolsou.com/",
                 "searchUrl": "https://www.kolsou.com/search?q=[kw]",
                 "title": "酷搜"
