@@ -33,6 +33,7 @@ const leftSiteList = $(".site-list")
 
 // 全局变量
 const nowChose = {
+    link: '',
     searchUrl: '',
     topIndex: -1,
     leftIndex: -1
@@ -130,6 +131,7 @@ function _genLeft(alias) {
         // 添加点击事件
         site.on('click', () => {
             site.addClass('active').siblings().removeClass('active')
+            nowChose.link = link
             if (searchUrl) {
                 nowChose.searchUrl = searchUrl ? searchUrl : null
                 _toSearch()//处理搜索
@@ -175,13 +177,15 @@ oSearchBtn.on('click', () => {
 
 // 跳转到搜索页面的按钮
 function _toSearch() {
-    if (nowChose.searchUrl) {
+    console.log(nowChose);
+    if (nowChose.searchUrl && oSearchInput.val().trim()) {
         let url = nowChose.searchUrl.replace('[kw]', encodeURIComponent(oSearchInput.val()))
         oLoading.css({ display: 'block' })
         iframe.attr('src', url)
 
     } else {
-        console.log('No search url');
+        oLoading.css({ display: 'block' })
+        iframe.attr('src', nowChose.link)
     }
 }
 
