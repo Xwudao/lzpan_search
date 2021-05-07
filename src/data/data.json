@@ -9,6 +9,11 @@
                 "title": "LZPAN"
             },
             {
+                "link": "https://upanso.com/",
+                "searchUrl": "https://upanso.com/main/leftSearch?time=ALL&kw=[kw]&diskType=ALL",
+                "title": "优盘搜"
+            },
+            {
                 "link": "https://www.kolsou.com/",
                 "searchUrl": "https://www.kolsou.com/search?q=[kw]",
                 "title": "酷搜"
