@@ -24,11 +24,6 @@
                 "title": "罗马盘搜索"
             },
             {
-                "link": "https://www.xiaomapan.com/",
-                "searchUrl": "https://www.xiaomapan.com/search?keyword=[kw]",
-                "title": "小马盘搜索"
-            },
-            {
                 "link": "https://www.dalipan.com/",
                 "searchUrl": "https://www.dalipan.com/search?keyword=[kw]",
                 "title": "大力盘搜索"
@@ -80,11 +75,6 @@
             {
                 "link": "https://www.fastsoso.cn/",
                 "title": "Fastsoso"
-            },
-            {
-                "link": "https://www.jidanso.com/",
-                "searchUrl": "https://www.jidanso.com/index.php/search/q/[kw]/?q=[kw]&from=sf&type=all",
-                "title": "网盘传奇"
             },
             {
                 "link": "https://www.lingfengyun.com/",
