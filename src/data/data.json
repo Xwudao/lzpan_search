@@ -169,6 +169,21 @@
         "title": "电影",
         "sites": [
             {
+                "link": "https://www.dianyinggou.com",
+                "searchUrl": "https://www.dianyinggou.com/so/[kw]",
+                "title": "电影狗"
+            },
+            {
+                "link": "https://www.cupfox.com",
+                "searchUrl": "https://www.cupfox.com/search?key=[kw]",
+                "title": "茶杯狐"
+            },
+            {
+                "link": "https://www.wuhaozhan.net/",
+                "searchUrl": "",
+                "title": "五号站"
+            },
+            {
                 "link": "https://app.movie/",
                 "searchUrl": "https://app.movie/index.php/vod/search.html?wd=[kw]&submit=",
                 "title": "APP影院"
