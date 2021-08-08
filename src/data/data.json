@@ -4,13 +4,13 @@
         "title": "网盘",
         "sites": [
             {
-                "link": "https://disk.misiai.com/",
-                "title": "LZPAN"
-            },
-            {
                 "link": "https://www.kolsou.com/",
                 "searchUrl": "https://www.kolsou.com/search?q=[kw]",
                 "title": "酷搜"
+            },
+            {
+                "link": "https://disk.misiai.com/",
+                "title": "LZPAN"
             },
             {
                 "link": "https://www.luomapan.com/",
