@@ -1,260 +1,261 @@
 {
-  "disk": {
-    "alias": "disk",
-    "title": "网盘",
-    "sites": [
-      {
-        "link": "https://www.kolsou.com/",
-        "searchUrl": "https://www.kolsou.com/search?q=[kw]",
-        "title": "酷搜"
-      },
-      {
-        "link": "https://youpanso.com",
-        "title": "YOUPAN"
-      },
-      {
-        "link": "https://www.luomapan.com/",
-        "title": "罗马盘搜索"
-      },
-      {
-        "link": "https://www.dalipan.com/",
-        "searchUrl": "https://www.dalipan.com/search?keyword=[kw]",
-        "title": "大力盘搜索"
-      },
-      {
-        "link": "https://www.dashengpan.com/",
-        "searchUrl": "https://www.dashengpan.com/search?keyword=[kw]",
-        "title": "大圣盘搜索"
-      },
-      {
-        "link": "https://www.xiaozhukuaipan.com/",
-        "searchUrl": "https://www.xiaozhukuaipan.com/s/search?q=[kw]&currentPage=1",
-        "title": "小猪快盘"
-      },
-      {
-        "link": "http://feiyu100.cn/home",
-        "searchUrl": "http://feiyu100.cn/home",
-        "title": "飞鱼盘搜[需关注]"
-      },
-      {
-        "link": "https://www.iizhi.cn/",
-        "searchUrl": "https://www.iizhi.cn/resource/search/[kw]?searchtype=0",
-        "title": "毕方铺[需登录]"
-      },
-      {
-        "link": "https://www.xiaobaipan.com/",
-        "searchUrl": "https://www.xiaobaipan.com/list-[kw].html",
-        "title": "小白盘搜索"
-      },
-      {
-        "link": "https://www.xiaoso.net/",
-        "searchUrl": "https://www.xiaoso.net/m/search?wd=[kw]",
-        "title": "小不点搜索"
-      },
-      {
-        "link": "https://www.sobaidupan.com/",
-        "title": "SO百度盘"
-      },
-      {
-        "link": "https://www.pantianxia.com/",
-        "searchUrl": "https://www.pantianxia.com/zh/[kw]",
-        "title": "盘天下搜索"
-      },
-      {
-        "link": "https://www.fastsoso.cn/",
-        "title": "Fastsoso"
-      },
-      {
-        "link": "https://www.lingfengyun.com/",
-        "title": "凌风云搜索"
-      }
-    ]
-  },
-  "searchEngin": {
-    "alias": "searchEngin",
-    "title": "搜索",
-    "sites": [
-      {
-        "link": "https://cn.bing.com",
-        "searchUrl": "https://cn.bing.com/search?q=[kw]",
-        "title": "必应搜索"
-      },
-      {
-        "link": "https://www.dogedoge.com/",
-        "searchUrl": "https://www.dogedoge.com/results?q=[kw]",
-        "title": "多吉搜索"
-      },
-      {
-        "link": "https://mijisou.com/",
-        "searchUrl": "https://mijisou.com/?q=[kw]&category_general=on&time_range=&language=zh-CN&pageno=1",
-        "title": "秘迹搜索"
-      },
-      {
-        "link": "https://www.baidu.com/",
-        "searchUrl": "https://www.baidu.com/s?wd=[kw]",
-        "title": "百度搜索"
-      },
-      {
-        "link": "https://www.cupfox.com/",
-        "searchUrl": "https://www.cupfox.com/search?key=[kw]",
-        "title": "茶杯狐搜索"
-      },
-      {
-        "link": "https://www.so.com/",
-        "searchUrl": "https://www.so.com/s?ie=utf-8&q=[kw]",
-        "title": "360搜索"
-      },
-      {
-        "link": "https://www.acgsou.com/",
-        "searchUrl": "https://www.36dm.club/search.php?keyword=[kw]",
-        "title": "ACG搜索"
-      },
-      {
-        "link": "https://www.sogou.com",
-        "searchUrl": "https://www.sogou.com/web?query=[kw]&ie=utf8",
-        "title": "搜狗搜索"
-      },
-      {
-        "link": "https://weixin.sogou.com/",
-        "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=[kw]",
-        "title": "搜狗微信"
-      },
-      {
-        "link": "https://zihu.sogou.com",
-        "searchUrl": "https://www.sogou.com/sogou?insite=zhihu.com&ie=utf8&query=[kw]&ie=utf8",
-        "title": "搜狗知乎"
-      }
-    ]
-  },
-  "music": {
-    "alias": "music",
-    "title": "音乐",
-    "sites": [
-      {
-        "link": "https://music.daimadog.com/",
-        "title": "代码狗音乐"
-      },
-      {
-        "link": "http://music.runker.net/",
-        "title": "行客音乐"
-      },
-      {
-        "link": "http://www.musictool.top/",
-        "title": "音乐搜索神器"
-      },
-      {
-        "link": "http://music.jsososo.com/",
-        "title": "网易云音乐"
-      },
-      {
-        "link": "http://tool.liumingye.cn/music/",
-        "title": "MyFreeMp3"
-      }
-    ]
-  },
-  "movie": {
-    "alias": "movie",
-    "title": "电影",
-    "sites": [
-      {
-        "link": "https://www.dianyinggou.com",
-        "searchUrl": "https://www.dianyinggou.com/so/[kw]",
-        "title": "电影狗"
-      },
-      {
-        "link": "https://www.cupfox.com",
-        "searchUrl": "https://www.cupfox.com/search?key=[kw]",
-        "title": "茶杯狐"
-      },
-      {
-        "link": "https://www.wuhaozhan.net/",
-        "searchUrl": "",
-        "title": "五号站"
-      },
-      {
-        "link": "https://app.movie/",
-        "searchUrl": "https://app.movie/index.php/vod/search.html?wd=[kw]&submit=",
-        "title": "APP影院"
-      },
-      {
-        "link": "https://www.pianku.tv/",
-        "searchUrl": "https://www.pianku.tv/s/[kw].html",
-        "title": "片库"
-      },
-      {
-        "link": "https://www.hanjutv.com/",
-        "searchUrl": "https://www.hanjutv.com/index.php?c=so&module=&keyword=[kw]",
-        "title": "韩剧电影"
-      },
-      {
-        "link": "https://www.wanmeikk.me/",
-        "title": "完美看看"
-      },
-      {
-        "link": "https://www.88ys.com/",
-        "title": "88影视"
-      },
-      {
-        "link": "https://www.zhenbuka.com/",
-        "searchUrl": "https://www.zhenbuka.com/vodsearch/-------------/?wd=[kw]&submit=",
-        "title": "真不卡影院"
-      },
-      {
-        "link": "https://www.duboku.co/",
-        "searchUrl": "https://www.duboku.co/vodsearch/-------------.html?wd=[kw]&submit=",
-        "title": "独播库"
-      }
-    ]
-  },
-  "comic": {
-    "alias": "comic",
-    "title": "动漫",
-    "sites": [
-      {
-        "link": "https://www.agefans.tv/",
-        "searchUrl": "https://www.agefans.tv/search?query=[kw]&page=1",
-        "title": "AgeFans动漫"
-      },
-      {
-        "link": "https://www.clicli.me/",
-        "searchUrl": "https://www.clicli.me/search/[kw]",
-        "title": "CiliCili动漫"
-      },
-      {
-        "link": "https://www.bilibili.com/",
-        "searchUrl": "https://search.bilibili.com/all?keyword=[kw]&from_source=nav_suggest_new",
-        "title": "BiliBili动漫"
-      }
-    ]
-  },
-  "hot": {
-    "alias": "hot",
-    "title": "热榜",
-    "sites": [
-      {
-        "link": "https://ihothub.com/",
-        "title": "爱热榜"
-      },
-      {
-        "link": "https://mo.fish/",
-        "title": "鱼塘热榜"
-      },
-      {
-        "link": "https://s.weibo.com/top/summary?cate=homepage",
-        "title": "微博热搜"
-      },
-      {
-        "link": "https://trends.so.com/hot",
-        "title": "360热搜"
-      },
-      {
-        "link": "https://www.bilibili.com/ranking",
-        "title": "B站全站榜"
-      },
-      {
-        "link": "http://top.sogou.com/",
-        "title": "搜狗热搜"
-      }
-    ]
-  }
+    "disk": {
+        "alias": "disk",
+        "title": "网盘",
+        "sites": [
+            {
+                "link": "https://www.kolsou.com/",
+                "searchUrl": "https://www.kolsou.com/search?q=[kw]",
+                "title": "酷搜"
+            },
+            {
+                "link": "https://youpanso.com",
+                "searchUrl": "https://search.youpanso.com/?kw=[kw]",
+                "title": "YOUPAN"
+            },
+            {
+                "link": "https://www.luomapan.com/",
+                "title": "罗马盘搜索"
+            },
+            {
+                "link": "https://www.dalipan.com/",
+                "searchUrl": "https://www.dalipan.com/search?keyword=[kw]",
+                "title": "大力盘搜索"
+            },
+            {
+                "link": "https://www.dashengpan.com/",
+                "searchUrl": "https://www.dashengpan.com/search?keyword=[kw]",
+                "title": "大圣盘搜索"
+            },
+            {
+                "link": "https://www.xiaozhukuaipan.com/",
+                "searchUrl": "https://www.xiaozhukuaipan.com/s/search?q=[kw]&currentPage=1",
+                "title": "小猪快盘"
+            },
+            {
+                "link": "http://feiyu100.cn/home",
+                "searchUrl": "http://feiyu100.cn/home",
+                "title": "飞鱼盘搜[需关注]"
+            },
+            {
+                "link": "https://www.iizhi.cn/",
+                "searchUrl": "https://www.iizhi.cn/resource/search/[kw]?searchtype=0",
+                "title": "毕方铺[需登录]"
+            },
+            {
+                "link": "https://www.xiaobaipan.com/",
+                "searchUrl": "https://www.xiaobaipan.com/list-[kw].html",
+                "title": "小白盘搜索"
+            },
+            {
+                "link": "https://www.xiaoso.net/",
+                "searchUrl": "https://www.xiaoso.net/m/search?wd=[kw]",
+                "title": "小不点搜索"
+            },
+            {
+                "link": "https://www.sobaidupan.com/",
+                "title": "SO百度盘"
+            },
+            {
+                "link": "https://www.pantianxia.com/",
+                "searchUrl": "https://www.pantianxia.com/zh/[kw]",
+                "title": "盘天下搜索"
+            },
+            {
+                "link": "https://www.fastsoso.cn/",
+                "title": "Fastsoso"
+            },
+            {
+                "link": "https://www.lingfengyun.com/",
+                "title": "凌风云搜索"
+            }
+        ]
+    },
+    "searchEngin": {
+        "alias": "searchEngin",
+        "title": "搜索",
+        "sites": [
+            {
+                "link": "https://cn.bing.com",
+                "searchUrl": "https://cn.bing.com/search?q=[kw]",
+                "title": "必应搜索"
+            },
+            {
+                "link": "https://www.dogedoge.com/",
+                "searchUrl": "https://www.dogedoge.com/results?q=[kw]",
+                "title": "多吉搜索"
+            },
+            {
+                "link": "https://mijisou.com/",
+                "searchUrl": "https://mijisou.com/?q=[kw]&category_general=on&time_range=&language=zh-CN&pageno=1",
+                "title": "秘迹搜索"
+            },
+            {
+                "link": "https://www.baidu.com/",
+                "searchUrl": "https://www.baidu.com/s?wd=[kw]",
+                "title": "百度搜索"
+            },
+            {
+                "link": "https://www.cupfox.com/",
+                "searchUrl": "https://www.cupfox.com/search?key=[kw]",
+                "title": "茶杯狐搜索"
+            },
+            {
+                "link": "https://www.so.com/",
+                "searchUrl": "https://www.so.com/s?ie=utf-8&q=[kw]",
+                "title": "360搜索"
+            },
+            {
+                "link": "https://www.acgsou.com/",
+                "searchUrl": "https://www.36dm.club/search.php?keyword=[kw]",
+                "title": "ACG搜索"
+            },
+            {
+                "link": "https://www.sogou.com",
+                "searchUrl": "https://www.sogou.com/web?query=[kw]&ie=utf8",
+                "title": "搜狗搜索"
+            },
+            {
+                "link": "https://weixin.sogou.com/",
+                "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=[kw]",
+                "title": "搜狗微信"
+            },
+            {
+                "link": "https://zihu.sogou.com",
+                "searchUrl": "https://www.sogou.com/sogou?insite=zhihu.com&ie=utf8&query=[kw]&ie=utf8",
+                "title": "搜狗知乎"
+            }
+        ]
+    },
+    "music": {
+        "alias": "music",
+        "title": "音乐",
+        "sites": [
+            {
+                "link": "https://music.daimadog.com/",
+                "title": "代码狗音乐"
+            },
+            {
+                "link": "http://music.runker.net/",
+                "title": "行客音乐"
+            },
+            {
+                "link": "http://www.musictool.top/",
+                "title": "音乐搜索神器"
+            },
+            {
+                "link": "http://music.jsososo.com/",
+                "title": "网易云音乐"
+            },
+            {
+                "link": "http://tool.liumingye.cn/music/",
+                "title": "MyFreeMp3"
+            }
+        ]
+    },
+    "movie": {
+        "alias": "movie",
+        "title": "电影",
+        "sites": [
+            {
+                "link": "https://www.dianyinggou.com",
+                "searchUrl": "https://www.dianyinggou.com/so/[kw]",
+                "title": "电影狗"
+            },
+            {
+                "link": "https://www.cupfox.com",
+                "searchUrl": "https://www.cupfox.com/search?key=[kw]",
+                "title": "茶杯狐"
+            },
+            {
+                "link": "https://www.wuhaozhan.net/",
+                "searchUrl": "",
+                "title": "五号站"
+            },
+            {
+                "link": "https://app.movie/",
+                "searchUrl": "https://app.movie/index.php/vod/search.html?wd=[kw]&submit=",
+                "title": "APP影院"
+            },
+            {
+                "link": "https://www.pianku.tv/",
+                "searchUrl": "https://www.pianku.tv/s/[kw].html",
+                "title": "片库"
+            },
+            {
+                "link": "https://www.hanjutv.com/",
+                "searchUrl": "https://www.hanjutv.com/index.php?c=so&module=&keyword=[kw]",
+                "title": "韩剧电影"
+            },
+            {
+                "link": "https://www.wanmeikk.me/",
+                "title": "完美看看"
+            },
+            {
+                "link": "https://www.88ys.com/",
+                "title": "88影视"
+            },
+            {
+                "link": "https://www.zhenbuka.com/",
+                "searchUrl": "https://www.zhenbuka.com/vodsearch/-------------/?wd=[kw]&submit=",
+                "title": "真不卡影院"
+            },
+            {
+                "link": "https://www.duboku.co/",
+                "searchUrl": "https://www.duboku.co/vodsearch/-------------.html?wd=[kw]&submit=",
+                "title": "独播库"
+            }
+        ]
+    },
+    "comic": {
+        "alias": "comic",
+        "title": "动漫",
+        "sites": [
+            {
+                "link": "https://www.agefans.tv/",
+                "searchUrl": "https://www.agefans.tv/search?query=[kw]&page=1",
+                "title": "AgeFans动漫"
+            },
+            {
+                "link": "https://www.clicli.me/",
+                "searchUrl": "https://www.clicli.me/search/[kw]",
+                "title": "CiliCili动漫"
+            },
+            {
+                "link": "https://www.bilibili.com/",
+                "searchUrl": "https://search.bilibili.com/all?keyword=[kw]&from_source=nav_suggest_new",
+                "title": "BiliBili动漫"
+            }
+        ]
+    },
+    "hot": {
+        "alias": "hot",
+        "title": "热榜",
+        "sites": [
+            {
+                "link": "https://ihothub.com/",
+                "title": "爱热榜"
+            },
+            {
+                "link": "https://mo.fish/",
+                "title": "鱼塘热榜"
+            },
+            {
+                "link": "https://s.weibo.com/top/summary?cate=homepage",
+                "title": "微博热搜"
+            },
+            {
+                "link": "https://trends.so.com/hot",
+                "title": "360热搜"
+            },
+            {
+                "link": "https://www.bilibili.com/ranking",
+                "title": "B站全站榜"
+            },
+            {
+                "link": "http://top.sogou.com/",
+                "title": "搜狗热搜"
+            }
+        ]
+    }
 }
