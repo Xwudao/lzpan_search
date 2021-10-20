@@ -4,14 +4,14 @@
         "title": "网盘",
         "sites": [
             {
-                "link": "https://www.kolsou.com/",
-                "searchUrl": "https://www.kolsou.com/search?q=[kw]",
-                "title": "酷搜"
-            },
-            {
                 "link": "https://ujuso.com",
                 "searchUrl": "https://ujuso.com/#/main/search?q=[kw]",
                 "title": "优聚搜"
+            },
+            {
+                "link": "https://www.kolsou.com/",
+                "searchUrl": "https://www.kolsou.com/search?q=[kw]",
+                "title": "酷搜"
             },
             {
                 "link": "https://www.sopandas.com/",
