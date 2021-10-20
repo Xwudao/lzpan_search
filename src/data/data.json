@@ -9,6 +9,11 @@
                 "title": "优聚搜"
             },
             {
+                "link": "https://www.alipanso.com",
+                "searchUrl": "https://www.alipanso.com/search.html?page=1&keyword=[kw]",
+                "title": "阿里云搜"
+            },
+            {
                 "link": "https://www.kolsou.com/",
                 "searchUrl": "https://www.kolsou.com/search?q=[kw]",
                 "title": "酷搜"
