@@ -4,9 +4,9 @@
         "title": "网盘",
         "sites": [
             {
-                "link": "https://ujuso.com",
-                "searchUrl": "https://ujuso.com/#/main/search?q=[kw]",
-                "title": "优聚搜"
+                "link": "https://www.alipanso.com",
+                "searchUrl": "https://www.alipanso.com/search.html?page=1&keyword=[kw]",
+                "title": "阿里云搜"
             },
             {
                 "link": "https://www.xuesousou.com/",
@@ -14,9 +14,9 @@
                 "title": "学搜搜(酷搜)"
             },
             {
-                "link": "https://www.alipanso.com",
-                "searchUrl": "https://www.alipanso.com/search.html?page=1&keyword=[kw]",
-                "title": "阿里云搜"
+                "link": "https://ujuso.com",
+                "searchUrl": "https://ujuso.com/#/main/search?q=[kw]",
+                "title": "优聚搜"
             },
             {
                 "link": "https://www.sopandas.com/",
