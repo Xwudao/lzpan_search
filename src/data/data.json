@@ -4,9 +4,14 @@
         "title": "网盘",
         "sites": [
             {
-                "link": "https://ujuso.com",
-                "searchUrl": "https://ujuso.com/#/main/?kw=[kw]",
-                "title": "优聚搜"
+                "link": "https://ujuso.pages.dev",
+                "searchUrl": "https://ujuso.pages.dev/#/main/?kw=[kw]",
+                "title": "优聚搜(v3)"
+            },
+            {
+                "link": "https://v3.ujuso.com",
+                "searchUrl": "https://v3.ujuso.com/#/main/?kw=[kw]",
+                "title": "优聚搜(v3)"
             },
             {
                 "link": "https://www.alipanso.com",
