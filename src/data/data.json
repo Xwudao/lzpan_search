@@ -24,6 +24,26 @@
                 "title": "学搜搜(酷搜)"
             },
             {
+                "link": "https://cn.bing.com/search?q=%22pan.baidu.com%22",
+                "searchUrl": "https://cn.bing.com/search?q=%22pan.baidu.com%22%20[kw]",
+                "title": "Bing高级搜索"
+            },
+            {
+                "link": "https://m.sm.cn/s?q=%22pan.baidu.com%22",
+                "searchUrl": "https://m.sm.cn/s?q=%22pan.baidu.com%22%20[kw]",
+                "title": "神马高级搜索"
+            },
+            {
+                "link": "https://www.ecosia.org/search?q=%22pan.baidu.com%22",
+                "searchUrl": "https://m.toutiao.com/search?keyword=%22pan.baidu.com%22%20[kw]",
+                "title": "Ecosia高级搜索"
+            },
+            {
+                "link": "https://m.toutiao.com/search?keyword=%22pan.baidu.com%22",
+                "searchUrl": "https://m.toutiao.com/search?keyword=%22pan.baidu.com%22%20[kw]",
+                "title": "头条高级搜索"
+            },
+            {
                 "link": "https://www.sopandas.com/",
                 "searchUrl": "https://www.sopandas.com/e/[kw]",
                 "title": "熊猫搜盘"
