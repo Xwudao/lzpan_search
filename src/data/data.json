@@ -4,8 +4,8 @@
         "title": "网盘",
         "sites": [
             {
-                "link": "https://ujuso.pages.dev",
-                "searchUrl": "https://ujuso.pages.dev/#/main/?kw=[kw]",
+                "link": "https://ujuso.vercel.app",
+                "searchUrl": "https://ujuso.vercel.app/#/main/?kw=[kw]",
                 "title": "优聚搜(v3)"
             },
             {
