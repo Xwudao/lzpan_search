@@ -4,13 +4,13 @@
         "title": "网盘",
         "sites": [
             {
-                "link": "https://ujuso.vercel.app",
-                "searchUrl": "https://ujuso.vercel.app/#/main/?kw=[kw]",
+                "link": "https://jujuso.com",
+                "searchUrl": "https://jujuso.com/#/main/?kw=[kw]",
                 "title": "优聚搜(v3)"
             },
             {
-                "link": "https://v3.ujuso.com",
-                "searchUrl": "https://v3.ujuso.com/#/main/?kw=[kw]",
+                "link": "https://ujuso.vercel.app",
+                "searchUrl": "https://ujuso.vercel.app/#/main/?kw=[kw]",
                 "title": "优聚搜(v3)"
             },
             {
