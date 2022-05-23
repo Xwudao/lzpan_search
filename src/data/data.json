@@ -24,6 +24,11 @@
                 "title": "学搜搜(酷搜)"
             },
             {
+                "link": "https://dapanso.com/",
+                "searchUrl": "https://dapanso.com/search?keyword=[kw]&page=1&type=",
+                "title": "大盘搜"
+            },
+            {
                 "link": "https://cn.bing.com/search?q=%22pan.baidu.com%22",
                 "searchUrl": "https://cn.bing.com/search?q=%22pan.baidu.com%22%20[kw]",
                 "title": "Bing高级搜索"
