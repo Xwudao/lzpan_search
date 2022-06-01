@@ -26,3 +26,9 @@ jobs:
       run: |
         npm install
         npx webpack --config webpack.config.js --mode production
+    - name: Release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "dist/"
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
