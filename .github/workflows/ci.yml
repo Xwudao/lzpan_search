@@ -30,6 +30,6 @@ jobs:
     - name: Release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "dist/*"
+        artifacts: "dist"
         token: ${{ secrets.GITHUB_TOKEN }}
         
