@@ -1,0 +1,35 @@
+name: NodeJS with Webpack
+
+on: 
+  push:
+    tags:
+    - '*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x]
+    
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Build
+      run: |
+        npm install
+        npx webpack --config webpack.config.js --mode production
+    - name: Release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "dist"
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
