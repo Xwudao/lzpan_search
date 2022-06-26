@@ -53,6 +53,10 @@ module.exports = {
                 {
                     from: path.resolve(__dirname, 'src/favicon'),
                     to: path.resolve(__dirname, 'dist')
+                },
+                {
+                    from: path.resolve(__dirname, 'public/ads.txt'),
+                    to: path.resolve(__dirname, 'dist')
                 }
             ]
         }),
