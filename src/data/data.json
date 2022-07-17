@@ -24,9 +24,9 @@
                 "title": "学搜搜(酷搜)"
             },
             {
-                "link": "https://dapanso.com/",
-                "searchUrl": "https://dapanso.com/search?keyword=[kw]&page=1&type=",
-                "title": "大盘搜"
+                "link": "https://www.alipansou.com/",
+                "searchUrl": "https://www.alipansou.com/search?k=[kw]",
+                "title": "猫狸盘搜[new]"
             },
             {
                 "link": "https://cn.bing.com/search?q=%22pan.baidu.com%22",
@@ -52,20 +52,6 @@
                 "link": "https://www.sopandas.com/",
                 "searchUrl": "https://www.sopandas.com/e/[kw]",
                 "title": "熊猫搜盘"
-            },
-            {
-                "link": "https://www.luomapan.com/",
-                "title": "罗马盘搜索"
-            },
-            {
-                "link": "https://www.dalipan.com/",
-                "searchUrl": "https://www.dalipan.com/search?keyword=[kw]",
-                "title": "大力盘搜索"
-            },
-            {
-                "link": "https://www.dashengpan.com/",
-                "searchUrl": "https://www.dashengpan.com/search?keyword=[kw]",
-                "title": "大圣盘搜索"
             },
             {
                 "link": "https://www.xiaozhukuaipan.com/",
@@ -95,11 +81,6 @@
             {
                 "link": "https://www.sobaidupan.com/",
                 "title": "SO百度盘"
-            },
-            {
-                "link": "https://www.pantianxia.com/",
-                "searchUrl": "https://www.pantianxia.com/zh/[kw]",
-                "title": "盘天下搜索"
             },
             {
                 "link": "https://www.fastsoso.cn/",
