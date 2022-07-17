@@ -18,13 +18,20 @@ Demo: [http://lzpan.com](http://lzpan.com)
 
 2、安装依赖：
 
-`yarn` or `npm i`
+```bash
+npx pnpm i 
+#or 
+npm i
+```
 
 3、修改一些你想修改到东西，然后进行第 4 步构建
 
 4、构建
 
-`yarn build` or `npm run build`
+```bash
+npm run build
+```
+
 
 5、构建后会生成一个 dist 目录，然后复制这个目录里面到文件到你的网站根目录即可！
 
