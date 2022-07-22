@@ -24,6 +24,11 @@
                 "title": "学搜搜(酷搜)"
             },
             {
+                "link": "https://yiso.fun/",
+                "searchUrl": "https://yiso.fun/info?searchKey=[kw]",
+                "title": "易搜[new]"
+            },
+            {
                 "link": "https://www.alipansou.com/",
                 "searchUrl": "https://www.alipansou.com/search?k=[kw]",
                 "title": "猫狸盘搜[new]"
