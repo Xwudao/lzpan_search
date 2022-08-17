@@ -24,6 +24,11 @@
                 "title": "学搜搜(酷搜)"
             },
             {
+                "link": "https://www.cuppaso.fun/",
+                "searchUrl": "https://www.cuppaso.fun/search?type=all&keyword=[kw]&page=1",
+                "title": "咔帕搜索[new]"
+            },
+            {
                 "link": "https://yiso.fun/",
                 "searchUrl": "https://yiso.fun/info?searchKey=[kw]",
                 "title": "易搜[new]"
