@@ -42,7 +42,8 @@
             {
                 "link": "https://www.alipansou.com/",
                 "searchUrl": "https://www.alipansou.com/search?k=[kw]",
-                "title": "猫狸盘搜"
+                "title": "猫狸盘搜",
+                "open": true
             },
             {
                 "link": "https://cn.bing.com/search?q=%22pan.baidu.com%22",
