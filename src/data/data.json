@@ -26,17 +26,23 @@
             {
                 "link": "https://www.cuppaso.fun/",
                 "searchUrl": "https://www.cuppaso.fun/search?type=all&keyword=[kw]&page=1",
-                "title": "咔帕搜索[new]"
+                "title": "咔帕搜索"
             },
             {
                 "link": "https://yiso.fun/",
                 "searchUrl": "https://yiso.fun/info?searchKey=[kw]",
-                "title": "易搜[new]"
+                "title": "易搜"
+            },
+            {
+                "link": "https://pan.qianfan.app/",
+                "searchUrl": "https://pan.qianfan.app/search/?pan=all&q=[kw]",
+                "title": "千帆网盘[new]",
+                "open": true
             },
             {
                 "link": "https://www.alipansou.com/",
                 "searchUrl": "https://www.alipansou.com/search?k=[kw]",
-                "title": "猫狸盘搜[new]"
+                "title": "猫狸盘搜"
             },
             {
                 "link": "https://cn.bing.com/search?q=%22pan.baidu.com%22",
