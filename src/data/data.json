@@ -34,6 +34,11 @@
                 "title": "易搜"
             },
             {
+                "link": "https://dapanso.com/",
+                "searchUrl": "https://dapanso.com/search?keyword=[kw]&page=1&type=",
+                "title": "大盘搜[new]"
+            },
+            {
                 "link": "https://pan.qianfan.app/",
                 "searchUrl": "https://pan.qianfan.app/search/?pan=all&q=[kw]",
                 "title": "千帆网盘[new]",
