@@ -29,6 +29,11 @@
                 "title": "咔帕搜索"
             },
             {
+                "link": "https://meow.tg/",
+                "searchUrl": "https://meow.tg/search/[kw]",
+                "title": "TG喵"
+            },
+            {
                 "link": "https://yiso.fun/",
                 "searchUrl": "https://yiso.fun/info?searchKey=[kw]",
                 "title": "易搜"
