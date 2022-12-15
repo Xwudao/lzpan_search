@@ -4,6 +4,11 @@
         "title": "网盘",
         "sites": [
             {
+                "link": "https://panguxia.com/",
+                "searchUrl": "https://panguxia.com/search?q=[kw]",
+                "title": "盘古侠[new]"
+            },
+            {
                 "link": "https://www.zhaokeya.com/",
                 "searchUrl": "https://www.zhaokeya.com/search?q=[kw]",
                 "title": "学搜搜(酷搜)"
@@ -17,11 +22,6 @@
                 "link": "https://jujuso.com",
                 "searchUrl": "https://jujuso.com/#/main/?q=[kw]",
                 "title": "优聚搜(v3)"
-            },
-            {
-                "link": "https://panguxia.com/",
-                "searchUrl": "https://panguxia.com/search?q=[kw]",
-                "title": "盘古侠[new]"
             },
             {
                 "link": "https://www.upyunso.com",
