@@ -1,115 +1,177 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>迷思爱PHP编程 - 阿里云盘搜索导航</title>
-    <meta name="keywords" content="阿里云搜索,阿里云盘搜索,阿里云盘搜索资源,阿里网盘搜索,阿里云盘搜索网站,阿里云搜索引擎,阿里云资源分享,阿里云网盘资源搜索引擎,阿里云盘资源分享" />
-    <meta name="description" content="懒盘搜索网站提供阿里云盘搜索服务，也提供搜索引擎导航服务。为您提供全网可以搜索阿里云盘的网站的导航。" />
-    <meta name="google-site-verification" content="Y93ag2Uj2WqRIvVbqE4NnMHf3UPR5Dh9UJqDk_CZ6io" />
+    <meta
+      name="keywords"
+      content="阿里云搜索,阿里云盘搜索,阿里云盘搜索资源,阿里网盘搜索,阿里云盘搜索网站,阿里云搜索引擎,阿里云资源分享,阿里云网盘资源搜索引擎,阿里云盘资源分享"
+    />
+    <meta
+      name="description"
+      content="懒盘搜索网站提供阿里云盘搜索服务，也提供搜索引擎导航服务。为您提供全网可以搜索阿里云盘的网站的导航。"
+    />
+    <meta
+      name="google-site-verification"
+      content="Y93ag2Uj2WqRIvVbqE4NnMHf3UPR5Dh9UJqDk_CZ6io"
+    />
 
     <script src=" https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="brand">
-            <a href="./">
-                <img src="https://wimg.misiyu.cn/images/2020/8/2020-08-10_49a0d834c52e8582e77ebfc5bec584e0.png?x-oss-process=style/common"
-                    alt="懒盘聚合搜索" />
-                <span class="title">懒盘搜索</span>
-            </a>
-        </div>
-        <div class="right-bar">
-            <ul class="menus">
-                <!-- <li class="menu">
+      <div class="brand">
+        <a href="./">
+          <img
+            src="https://wimg.misiyu.cn/images/2020/8/2020-08-10_49a0d834c52e8582e77ebfc5bec584e0.png?x-oss-process=style/common"
+            alt="懒盘聚合搜索"
+          />
+          <span class="title">懒盘搜索</span>
+        </a>
+      </div>
+      <div class="right-bar">
+        <ul class="menus">
+          <!-- <li class="menu">
                     <a href="#">网盘搜索</a>
                 </li> -->
-            </ul>
-            <div class="search">
-                <input type="text" id="search-input" placeholder="对于某些网站，可直接搜索" aria-label="search" autofocus />
-                <button id="search-btn">搜索</button>
-            </div>
-            <ul class="other-links">
-                <li class="link">
-                    <a href="https://www.baidu.com/s?ie=UTF-8&wd=%E6%87%92%E7%9B%98%E6%90%9C%E7%B4%A2"
-                        target="_blank">百度搜索</a>
-                </li>
-                <li class="link">
-                    <a href="https://dmxq6.com" rel="noreferer nofollow" target="_blank">大米星球</a>
-                </li>
-                <li class="link">
-                    <a target="_blank" href="https://mall.misiai.com">淘宝优惠券</a>
-                </li>
-                <li class="link">
-                    <a target="_blank" href="https://github.com/Xwudao/lzpan_search/issues/2">提交站点</a>
-                </li>
-                <li class="menu">
-                    <a href="https://box.misiai.com" style="color: orange" target="_blank">专业导航</a>
-                </li>
-            </ul>
-            <div class="github">
-                <!-- <a target="_blank" href="https://github.com/Xwudao/lzpan_search">Github</a> -->
-            </div>
+        </ul>
+        <div class="search">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="对于某些网站，可直接搜索"
+            aria-label="search"
+            autofocus
+          />
+          <button id="search-btn">搜索</button>
         </div>
+        <ul class="other-links">
+          <li class="link">
+            <a
+              href="https://www.baidu.com/s?ie=UTF-8&wd=%E6%87%92%E7%9B%98%E6%90%9C%E7%B4%A2"
+              target="_blank"
+              >百度搜索</a
+            >
+          </li>
+          <li class="link">
+            <a
+              href="https://dmdy10.vip"
+              rel="noreferer nofollow"
+              target="_blank"
+              >大米星球</a
+            >
+          </li>
+          <li class="link">
+            <a target="_blank" href="https://mall.misiai.com">淘宝优惠券</a>
+          </li>
+          <li class="link">
+            <a
+              target="_blank"
+              href="https://github.com/Xwudao/lzpan_search/issues/2"
+              >提交站点</a
+            >
+          </li>
+          <li class="menu">
+            <a
+              href="https://box.misiai.com"
+              style="color: orange"
+              target="_blank"
+              >专业导航</a
+            >
+          </li>
+        </ul>
+        <div class="github">
+          <!-- <a target="_blank" href="https://github.com/Xwudao/lzpan_search">Github</a> -->
+        </div>
+      </div>
     </header>
     <main>
-        <div class="left">
-            <ul class="site-list">
-                <!-- <li class="site">
+      <div class="left">
+        <ul class="site-list">
+          <!-- <li class="site">
                     <img src="https://i.olsh.me/icon?size=80..120..200&url=kilig.ujuji.com" alt="">
                     <div class="text">搜索链接</div>
                 </li> -->
-            </ul>
-            <section class="ad-area">
-                <script async
-                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5992841380729226"
-                    crossorigin="anonymous"></script>
-                <ins class="adsbygoogle" style="display: block; text-align: center" data-ad-layout="in-article"
-                    data-ad-format="fluid" data-ad-client="ca-pub-5992841380729226" data-ad-slot="5302343622"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </section>
+        </ul>
+        <section class="ad-area">
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5992841380729226"
+            crossorigin="anonymous"
+          ></script>
+          <ins
+            class="adsbygoogle"
+            style="display: block; text-align: center"
+            data-ad-layout="in-article"
+            data-ad-format="fluid"
+            data-ad-client="ca-pub-5992841380729226"
+            data-ad-slot="5302343622"
+          ></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </section>
+      </div>
+      <div class="right">
+        <div class="loading" id="loading">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        <div class="right">
-            <div class="loading" id="loading">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="err" id="err">加载错误，请刷新或者更换其他网站</div>
-            <iframe name="search" src="https://misiyu.cn" frameborder="0" allowfullscreen
-                allowpaymentrequest="true"></iframe>
-        </div>
+        <div class="err" id="err">加载错误，请刷新或者更换其他网站</div>
+        <iframe
+          name="search"
+          src="https://misiyu.cn"
+          frameborder="0"
+          allowfullscreen
+          allowpaymentrequest="true"
+        ></iframe>
+      </div>
     </main>
     <footer>
-        <span class="span">&copy;2019-<em id="year"></em></span>
-        <span><a target="_blank" href="https://lzpan.com">懒盘</a></span>
-        <!-- <span><a target="_blank" href="https://ihothub.com">爱热榜</a></span> -->
-        <span><a target="_blank" href="https://ujuji.com">优聚集</a></span>
-        <span><a target="_blank" href="https://mall.misiai.com">淘宝优惠券</a></span>
-        <span><a target="_blank" href="https://nav.ujuji.com">无道书签</a></span>
-        <span><a target="_blank" href="https://beian.miit.gov.cn/">蜀ICP备19005797号-3</a></span>
-        <iframe src="https://ghbtns.com/github-btn.html?user=Xwudao&repo=lzpan_search&type=star&count=true"
-            frameborder="0" scrolling="0" style="
+      <span class="span">&copy;2019-<em id="year"></em></span>
+      <span><a target="_blank" href="https://lzpan.com">懒盘</a></span>
+      <!-- <span><a target="_blank" href="https://ihothub.com">爱热榜</a></span> -->
+      <span><a target="_blank" href="https://ujuji.com">优聚集</a></span>
+      <span
+        ><a target="_blank" href="https://mall.misiai.com">淘宝优惠券</a></span
+      >
+      <span><a target="_blank" href="https://nav.ujuji.com">无道书签</a></span>
+      <span
+        ><a target="_blank" href="https://beian.miit.gov.cn/"
+          >蜀ICP备19005797号-3</a
+        ></span
+      >
+      <iframe
+        src="https://ghbtns.com/github-btn.html?user=Xwudao&repo=lzpan_search&type=star&count=true"
+        frameborder="0"
+        scrolling="0"
+        style="
           height: 20px;
           max-width: 108px;
           padding-left: 5px;
           box-sizing: border-box;
           margin-bottom: -5px;
           display: unset !important;
-        "></iframe>
+        "
+      ></iframe>
     </footer>
-</body>
-<script type="text/javascript" src="https://js.users.51.la/20403707.js"></script>
-<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-<script>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://js.users.51.la/20403707.js"
+  ></script>
+  <script
+    charset="UTF-8"
+    id="LA_COLLECT"
+    src="//sdk.51.la/js-sdk-pro.min.js"
+  ></script>
+  <script>
     LA.init({ id: "JMDv2UuvpJVq6AnI", ck: "JMDv2UuvpJVq6AnI" });
-</script>
-
+  </script>
 </html>
