@@ -1,3 +1,11 @@
+### 使用ReMan搭建自己的网盘搜索网站
+
+支持夸克、百度、迅雷网盘
+
+[https://docs.hunhepan.com/reman/](https://docs.hunhepan.com/reman/)
+
+
+
 ### 懒盘搜索
 
 Demo: [http://lzpanx.com](http://lzpanx.com)
