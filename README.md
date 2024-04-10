@@ -75,6 +75,11 @@ npm run build
 
 修改里面到标题等信息
 
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Xwudao/lzpan_search&type=Date)](https://star-history.com/#Xwudao/lzpan_search&Date)
+
 ### 协议
 
 MIT
