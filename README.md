@@ -76,6 +76,14 @@ npm run build
 修改里面到标题等信息
 
 
+### 一些网盘搜索引擎网站推荐：
+
+- https://alipanx.com
+- https://qkpanso.com
+- https://www.lzpanx.com
+- https://www.ujuso.com
+
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Xwudao/lzpan_search&type=Date)](https://star-history.com/#Xwudao/lzpan_search&Date)
