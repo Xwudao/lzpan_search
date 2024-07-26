@@ -1,3 +1,11 @@
+### 本源码
+
+是网盘搜索导航：Demo [https://so.lzpanx.com](https://so.lzpanx.com)
+
+
+需要搭建自己的网盘搜索网站，请参考下面：
+
+
 ### 使用ReMan搭建自己的网盘搜索网站
 
 支持导入夸克、百度、迅雷网盘资源的搜索引擎源码
@@ -31,7 +39,7 @@ ReMan是一款拥有后台的个人网盘资源管理程序；
 
 ### 懒盘搜索
 
-Demo: [http://lzpanx.com](http://lzpanx.com)
+Demo: [http://so.lzpanx.com](http://so.lzpanx.com)
 
 ### 使用
 
