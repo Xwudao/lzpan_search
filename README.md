@@ -2,17 +2,15 @@
 
 是网盘搜索导航：Demo [https://so.lzpanx.com](https://so.lzpanx.com)
 
-
 需要搭建自己的网盘搜索网站，请参考下面：
 
-
-### 使用ReMan搭建自己的网盘搜索网站
+### 使用 ReMan 搭建自己的网盘搜索网站
 
 支持导入夸克、百度、迅雷网盘资源的搜索引擎源码
 
 #### 简介
 
-ReMan是一款拥有后台的个人网盘资源管理程序；
+ReMan 是一款拥有后台的个人网盘资源管理程序；
 
 可以帮你管理、搜索自己的网盘资源；
 
@@ -22,7 +20,6 @@ ReMan是一款拥有后台的个人网盘资源管理程序；
 - 支持手机端和电脑端（前台）
 - 程序本身只有两个文件：config.yml 和 reman（**二进制文件，没有源码**）
 
-
 **特色功能：**
 
 - 支持设置分类，可以按分类展示资源列表
@@ -31,10 +28,7 @@ ReMan是一款拥有后台的个人网盘资源管理程序；
 - 提供热词、热门资源记录，可以在后台查看搜索热词
 - 等等其它功能，在下面的演示环境中体验吧！
 
-
 [https://docs.hunhepan.com/reman/](https://docs.hunhepan.com/reman/)
-
-
 
 ### 懒盘搜索
 
@@ -57,8 +51,8 @@ Demo: [http://so.lzpanx.com](http://so.lzpanx.com)
 2、安装依赖：
 
 ```bash
-npx pnpm i 
-#or 
+npx pnpm i
+#or
 npm i
 ```
 
@@ -69,7 +63,6 @@ npm i
 ```bash
 npm run build
 ```
-
 
 5、构建后会生成一个 dist 目录，然后复制这个目录里面到文件到你的网站根目录即可！
 
@@ -83,14 +76,11 @@ npm run build
 
 修改里面到标题等信息
 
+### 感谢
 
-### 一些网盘搜索引擎网站推荐：
+本项目 CDN 加速及安全防护由 [Tencent EdgeOne](https://edgeone.ai/zh?from=github) 赞助
 
-- https://alipanx.com
-- https://qkpanso.com
-- https://www.lzpanx.com
-- https://www.ujuso.com
-
+![Tencent EdgeOne](/images/tc.png)
 
 ## Star History
 
